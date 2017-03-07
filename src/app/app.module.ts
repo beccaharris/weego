@@ -1,37 +1,39 @@
-import { BrowserModule }      from '@angular/platform-browser';
-import { NgModule }           from '@angular/core';
-import { FormsModule }        from '@angular/forms';
-import { HttpModule }         from '@angular/http';
-import { Router }             from '@angular/router';
+import { BrowserModule }         from '@angular/platform-browser';
+import { NgModule }              from '@angular/core';
+import { FormsModule }           from '@angular/forms';
+import { HttpModule }            from '@angular/http';
+import { Router }                from '@angular/router';
 
-import { AppComponent }       from './app.component';
-import { AppRoutingModule }   from './app-routing.module';
-import { HeaderComponent }    from './header/header.component';
-import { AdoptionComponent }  from './adoption/adoption.component';
-import { EventsComponent }    from './events/events.component';
-import { ContactComponent }   from './contact/contact.component';
-import { ResourcesComponent } from './resources/resources.component';
-import { DashComponent }      from './dash/dash.component';
-import { DogsComponent }      from './dogs/dogs.component';
-import { CatsComponent }      from './cats/cats.component';
+import { AppRoutingModule }      from './app-routing.module';
+import { AdoptionModule }        from './adoption/adoption.module';
+import { AdoptionRoutingModule } from './adoption/adoption-routing.module';
+
+import { AppComponent }          from './app.component';
+import { HeaderComponent }       from './header/header.component';
+import { AboutComponent }        from './about/about.component';
+import { HomeComponent }         from './home/home.component';
+import { PetFinderComponent }    from './pet-finder/pet-finder.component';
+import { GalleryComponent }      from './gallery/gallery.component';
+import { ContactComponent }      from './contact/contact.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    AdoptionComponent,
-    EventsComponent,
     ContactComponent,
-    ResourcesComponent,
-    DashComponent,
-    DogsComponent,
-    CatsComponent
+    HomeComponent,
+    AboutComponent,
+    PetFinderComponent,
+    GalleryComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     AppRoutingModule,
+    AdoptionModule,
+    AdoptionRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,17 +1,19 @@
 <div class="wrapper">
+  
   <nav class="main">
     <ul class="main-nav">
-      <li><a href="/adoption">Adoption</a></li>
-      <li><a href="/pet-surrender">Pet Surrender</a></li>
-      <li><a href="/spay-neuter">Spay/Neuter</a></li>
-      <li><a href="/events">Events</a></li>
-      <li><a href="/resources">Resources</a></li>
-      <li><a href="/contact">Contact Us</a></li>   
+      <li><a [routerLink]="['about']">Why Rescue?</a></li>
+      <li><a [routerLink]="['adoption']">Our Pets</a></li>
+      <li><a [routerLink]="['pet-finder']">Find-a-Pet</a></li>   
+      <li><a [routerLink]="['gallery']">Happily Adopted Gallery</a></li>
+      <li><a [routerLink]="['contact']">Contact Us</a></li>
     </ul>
   </nav>
-  <a href="/dash">
-    <img src="assets/images/images.png" alt="Weego's Logo" class="logo"/>
+
+  <a [routerLink]="['dash']">
+    <img src="assets/images/paw-logo-title-white.png" alt="Weego's Logo" class="logo"/>
   </a>
+
 </div>
 
 

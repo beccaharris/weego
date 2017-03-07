@@ -1,20 +1,25 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { AppComponent }       from './app.component';
-import { HeaderComponent }    from './header/header.component';
-import { AdoptionComponent }  from './adoption/adoption.component';
-import { EventsComponent }    from './events/events.component';
-import { ContactComponent }   from './contact/contact.component';
-import { ResourcesComponent } from './resources/resources.component';
-import { DashComponent }      from './dash/dash.component';
-import { DogsComponent }      from './dogs/dogs.component';
-import { CatsComponent }      from './cats/cats.component';
+import { AppComponent }         from './app.component';
+import { HeaderComponent }      from './header/header.component';
+import { HomeComponent }        from './home/home.component';
+import { AboutComponent }       from './about/about.component';
+import { AdoptionComponent }    from './adoption/adoption.component';
+import { PetFinderComponent }   from './pet-finder/pet-finder.component';
+import { ContactComponent }     from './contact/contact.component';
+import { DogsComponent }        from './dogs/dogs.component';
+import { CatsComponent }        from './cats/cats.component';
+import { GalleryComponent }     from './gallery/gallery.component';
 
+ 
 const appRoutes: Routes = [
   {
-    path: 'dash',
-    component: DashComponent
+    path: 'home',
+    component: HomeComponent
+  },{
+    path: 'about',
+    component: AboutComponent
   },{
     path: 'adoption',
     component: AdoptionComponent,
@@ -25,24 +30,24 @@ const appRoutes: Routes = [
       },{
         path: 'cats',
         component: CatsComponent
-      }
+      },
     ]
   },{
-    path: 'events',
-    component: EventsComponent
+    path: 'pet-finder',
+    component: PetFinderComponent
   },{
-    path: 'resources',
-    component: ResourcesComponent
+    path: 'gallery',
+    component: GalleryComponent
   },{
     path: 'contact',
     component: ContactComponent
   },{
     path: '',
-    redirectTo: '/dash',
+    redirectTo: '/home',
     pathMatch: 'full'
   },{
     path: '**',
-    redirectTo: '/dash',
+    redirectTo: '/home',
     pathMatch: 'full'
   }
 ]

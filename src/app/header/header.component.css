@@ -1,32 +1,35 @@
 .wrapper {
-    border-bottom: 2px solid black
+    border-bottom: 2px solid black;
+    background-color: #08302f
 }
 .logo {
-    height: 120px;
+    height: 90px;
     width: auto;
     float: center;
-    padding-left: 250px
+    padding-left: 50px;
 }
+/*---------------------MAIN NAV STYLING-----------------------*/
 .main-nav {
     float: right;
     list-style-type: none; 
-    padding-right:250px;
-    padding-top:85px;
+    padding-right:30px;
+    padding-top:10px;
 }
 .main-nav li {
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 .main-nav li:not(:last-child):after {
     content: " | ";
-    padding-left: .8em
+    padding-left: .8em;
+    color:white
 }
 .main-nav li a:link,
 .main-nav li a:visited {
     padding: 4px 0px;
-    color:black; 
+    color:white; 
     text-decoration: none;
     text-transform: uppercase;
     font-size: 100%;
@@ -43,8 +46,49 @@
     margin-right: 10px;
     text-transform: uppercase
 }
-.search {
-    display: inline-block;
-    margin-bottom: 60px;
-    padding-top:85px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------LOGIN BUTTON STYLING--------------------------*/
+/*.button {
+    padding-top: 10px;
+    padding-right: 10px
 }
+.btn-login {
+  display: inline-block;
+  float: right;
+  padding: 1px 4px;
+  color: #000;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 5px #999;
+  text-transform: uppercase;
+}
+.btn-login:hover,
+.btn-login:active {
+  background-color: #461410;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0 4px #667;
+  transform: translateY(4px);
+}
+*/
