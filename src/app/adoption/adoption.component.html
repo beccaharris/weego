@@ -10,3 +10,68 @@
   </a>
 </h1>
 <router-outlet></router-outlet>
+
+<div class="adoption-search">
+  <form id="getInfo" name="getInfo">
+    <table style="margin: 0 auto 20px;">
+      <thead>
+        <tr>
+          <td width="300">
+            <strong>Animal Type:</strong>
+          </td>
+          <td width="300">
+            <strong>Animal Gender:</strong>
+          </td>
+          <td width="300">
+            <strong>Animal Size:</strong>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="adoption-search-top">
+            <input id="cat" name="type" value="type_CAT" checked="checked" type="radio">
+              Cat
+            <br>
+            <input id="kitten" name="type" value="type_CAT" alt="y" type="radio">
+              Kitten
+            <br>
+            <input id="dog" name="type" value="type_DOG" type="radio">
+              Dog
+            <br>
+            <input id="puppy" name="type" value="type_DOG" alt="y" type="radio">
+              Puppy
+          </td>
+          <td class="adoption-search-top">
+            <input id="no-pref" name="no-pref" value="type_GENDER" type="radio">
+              No Preference  
+            <br>
+            <input id="female" name="female" value="type_GENDER" type="radio">
+              Female
+            <br>
+            <input id="male" name="male" value="type_GENDER" type="radio">
+              Male
+          </td>
+          <td class="adoption-search-top">
+            <input id="no-pref2" name="no-pref2" value="type_SIZE" type="radio">
+              No Preference
+            <br>
+            <input id="small" name="small" value="type_SIZE" type="radio">
+              Small
+            <br>
+            <input id="medium" name="medium" value="type_SIZE" type="radio">
+              Medium
+            <br>
+            <input id="large" name="large" value="type_SIZE" type="radio">
+              Large
+          </td>
+        <tr>
+          <td colspan="4" align="center">
+            <input id="search_btn" class="submit" name="adopt_search" value="Search" type="button">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</div>
+ 

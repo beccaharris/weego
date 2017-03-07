@@ -1,3 +1,34 @@
-<p>
-  pet-finder works!
-</p>
+<div class="container">
+  
+  <h1>Pet-Finder</h1>
+  
+  <form>
+    <div class="form-group">
+      <label for="location">Location</label>
+      <input type="text" class="form-control" id="name" required>
+    </div>
+  </form>
+
+  <div class="form-group">
+    <label for="species">Type</label>
+    <select class="form-contrl" id="species" required>
+      <option *ngFor="let spe of species" [value]="spe">{{spe}}</option>
+    </select>
+  </div>
+  
+  <form>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" id="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="alterEgo">Alter Ego</label>
+      <input type="text" class="form-control" id="alterEgo">
+    </div>
+
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>
+
+
