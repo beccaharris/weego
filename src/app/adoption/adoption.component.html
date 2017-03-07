@@ -15,17 +15,10 @@
   </p>
 </div>
 
-<h1>
-  <a [routerLink]="['dogs']">
-  Adoptable Dogs
-  </a>
-</h1>
-
-<h1>
-  <a [routerLink]="['cats']">
-    Adoptable Cats
-  </a>
-</h1>
+<div class="adopt-buttons">
+  <button class="adopt-dog" (click)="gotoDogs()">Adoptable Dogs</button>
+  <button class="adopt-cat" (click)="gotoCats()">Adoptable Cats</button>
+</div>
 <router-outlet></router-outlet>
 
 <!-- 

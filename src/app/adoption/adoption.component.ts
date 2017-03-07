@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router }            from '@angular/router'
+
+import { AppRoutingModule }  from '../app-routing.module'
 
 @Component({
   selector: 'app-adoption',
@@ -7,7 +10,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdoptionComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private router: Router
+  ) { }
+
+  gotoDogs() {
+    this.router.navigate(['/adoption/dogs']);
+  }
+
+  gotoCats() {
+    this.router.navigate(['/adoption/cats']);
+  }
 
   ngOnInit() {
   }
