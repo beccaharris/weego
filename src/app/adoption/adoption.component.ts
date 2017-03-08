@@ -6,7 +6,7 @@ import { AppRoutingModule }  from '../app-routing.module'
 @Component({
   selector: 'app-adoption',
   templateUrl: './adoption.component.html',
-  styleUrls: ['./adoption.component.css']
+  styleUrls: ['./adoption.component.scss']
 })
 export class AdoptionComponent implements OnInit {
 

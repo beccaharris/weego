@@ -15,6 +15,7 @@ import { HomeComponent }         from './home/home.component';
 import { PetFinderComponent }    from './pet-finder/pet-finder.component';
 import { GalleryComponent }      from './gallery/gallery.component';
 import { ContactComponent }      from './contact/contact.component';
+import { AnimalsComponent } from './animals/animals.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { ContactComponent }      from './contact/contact.component';
     AboutComponent,
     PetFinderComponent,
     GalleryComponent,
+    AnimalsComponent,
   ],
   imports: [
     BrowserModule,

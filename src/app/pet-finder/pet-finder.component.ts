@@ -6,7 +6,7 @@ import { Pet_Finder } from './pet-finder';
   moduleId: module.id,
   selector: 'app-pet-finder',
   templateUrl: './pet-finder.component.html',
-  styleUrls: ['./pet-finder.component.css']
+  styleUrls: ['./pet-finder.component.scss']
 })
 export class PetFinderComponent {
 

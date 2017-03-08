@@ -11,6 +11,7 @@ import { ContactComponent }     from './contact/contact.component';
 import { DogsComponent }        from './dogs/dogs.component';
 import { CatsComponent }        from './cats/cats.component';
 import { GalleryComponent }     from './gallery/gallery.component';
+import { AnimalsComponent }     from './animals/animals.component';
 
  
 const appRoutes: Routes = [
@@ -25,6 +26,13 @@ const appRoutes: Routes = [
     component: AdoptionComponent,
     children: [
       {
+        path: '',
+        redirectTo: 'animals',
+        pathMatch: 'full'
+      },{
+        path: 'animals',
+        component: AnimalsComponent
+      },{
         path: 'dogs',
         component: DogsComponent
       },{

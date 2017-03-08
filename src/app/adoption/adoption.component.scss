@@ -1,0 +1,57 @@
+.adopt_header {
+    padding-top: 40px;
+    margin-left: 450px;
+    text-transform: uppercase
+}
+
+p {
+    margin-left: 450px;
+    margin-right: 450px;
+    font-size: 20px;
+    
+}
+/* ------------ DOG & CAT ADOPT BUTTONS ------------ */
+.adopt-buttons {
+    margin: 0 auto;
+    text-align: center;
+    padding-top:30px
+}
+
+.adopt-dog,
+.adopt-cat {
+    padding: 3px 16px;
+    font-size: 20px;    
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #8eaebd;
+    border-radius: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 4px 4px #999   
+}
+
+.adopt-dog:hover,
+.adopt-cat:hover {
+    background-color: #30415d;
+    color: white;
+}
+
+.adopt-dog:active,
+.adopt-cat:active {
+    background-color: #30415d;
+    color: white;
+    box-shadow: 2px 2px #666;
+    transform: translateY(4px)
+}
+
+/* ------------ DOG & CAT PICTURE & DIV ------------ */
+
+.looking-up {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+
