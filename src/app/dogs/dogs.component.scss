@@ -20,7 +20,7 @@
   box-shadow: 4px 4px #ccc
 }
 
-.animal-name {
+.name {
   padding-top: 4px;
   text-transform: uppercase;
   font-size: 20px;
@@ -28,11 +28,11 @@
   color: #328cc1
 }
 
-.animal-breed,
-.animal-gender,
-.animal-age,
-.animal-color,
-.animal-location {
+.breed,
+.gender,
+.age,
+.color,
+.location {
   font-size: 12px;
   padding:2px;
 }
