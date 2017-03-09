@@ -20,6 +20,7 @@ import { AdoptionComponent }      from './adoption/adoption.component';
 import { DogsComponent }          from './dogs/dogs.component';
 import { CatsComponent }          from './cats/cats.component';
 import { AboutModalComponent }   from './about-modal/about-modal.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { AboutModalComponent }   from './about-modal/about-modal.component';
     AdoptionComponent,
     CatsComponent,
     DogsComponent,
-    AboutModalComponent
+    AboutModalComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
