@@ -1,0 +1,52 @@
+.animal {
+  border: 1px solid #999
+}
+
+.row {
+  height: 320px;
+  width: 275px;
+  margin-left: 400px;
+  margin-right: 450px;
+}
+
+.animal { 
+  padding: 5px;
+  margin: 50px;
+  width: 150px;
+  height: 350px;
+  border: 2px solid #999;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 4px 4px #ccc
+}
+
+.animal-name {
+  padding-top: 4px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: #328cc1
+}
+
+.animal-breed,
+.animal-gender,
+.animal-age,
+.animal-color,
+.animal-location {
+  font-size: 12px;
+  padding:2px;
+}
+
+.about-button {
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.about-me {
+  text-transform: uppercase;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #d9b310;
+  border-radius: 8px;
+  padding: 3px 6px
+}
