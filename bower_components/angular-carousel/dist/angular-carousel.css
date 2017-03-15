@@ -52,13 +52,13 @@ div.rn-carousel-indicator span {
   top: 40%;
   opacity: 0.75;
   cursor: pointer; }
-  .rn-carousel-control:hover {
-    opacity: 1; }
-  .rn-carousel-control.rn-carousel-control-prev {
-    left: 0.5em; }
-    .rn-carousel-control.rn-carousel-control-prev:before {
-      content: "<"; }
-  .rn-carousel-control.rn-carousel-control-next {
-    right: 0.5em; }
-    .rn-carousel-control.rn-carousel-control-next:before {
-      content: ">"; }
+.rn-carousel-control:hover {
+  opacity: 1; }
+.rn-carousel-control.rn-carousel-control-prev {
+  left: 0.5em; }
+.rn-carousel-control.rn-carousel-control-prev:before {
+  content: "<"; }
+.rn-carousel-control.rn-carousel-control-next {
+  right: 0.5em; }
+.rn-carousel-control.rn-carousel-control-next:before {
+  content: ">"; }

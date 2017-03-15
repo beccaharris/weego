@@ -1,9 +1,10 @@
 /* ----------- general slide style ----------- */
 .slide {
     vertical-align: middle;
-    width: 60%;
+    width: 1172px;
     height: auto;
-    margin-left: 20%;
+    margin-left: 26%;
+    overflow: hidden;
 }
 /* ----------- slide 1 styles ----------- */
 .slide-1-text:hover {
@@ -13,9 +14,9 @@
     position: absolute    !important;
     text-align: left      !important;
     padding-bottom: 0     !important;
-    bottom: 15%           !important;
+    bottom: 20%           !important;
     margin-right: 50%     !important;
-    margin-left: 15%      !important;
+    margin-left: 13%      !important;
 }
 .pic-1-header {
     color: #192231 !important;
@@ -38,13 +39,13 @@
     position: absolute    !important;
     text-align: left      !important;
     padding-bottom: 0     !important;
-    bottom: 15%           !important;
+    bottom: 20%           !important;
     margin-right: 34%     !important;
-    margin-left: 10%      !important;
+    margin-left: 12%      !important;
 }
 .pic-2-header {
     color: #fff !important;
-    font-size: 64px;
+    font-size: 78px;
     font-family: 'Lobster', cursive;
 }
 .pic-2-text {
