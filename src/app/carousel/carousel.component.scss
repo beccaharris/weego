@@ -1,6 +1,130 @@
+/* ----------- general slide style ----------- */
 .slide {
     vertical-align: middle;
-    width: 50%;
+    width: 60%;
     height: auto;
-    margin-left: 25%
+    margin-left: 20%;
+}
+/* ----------- slide 1 styles ----------- */
+.slide-1-text:hover {
+    text-decoration: none;
+}
+.carousel-caption-1 {
+    position: absolute    !important;
+    text-align: left      !important;
+    padding-bottom: 0     !important;
+    bottom: 15%           !important;
+    margin-right: 50%     !important;
+    margin-left: 15%      !important;
+}
+.pic-1-header {
+    color: #192231 !important;
+    font-size: 84px;
+    font-family: 'Lobster', cursive;
+}
+.pic-1-text {
+    color: #192231 !important;
+    font-size: 34px;
+    font-family: 'Lobster', cursive;
+    margin-top: 20px;
+}
+
+/* ----------- slide 2 styles ----------- */
+
+.slide-2-text:hover {
+    text-decoration: none;
+}
+.carousel-caption-2 {
+    position: absolute    !important;
+    text-align: left      !important;
+    padding-bottom: 0     !important;
+    bottom: 15%           !important;
+    margin-right: 34%     !important;
+    margin-left: 10%      !important;
+}
+.pic-2-header {
+    color: #fff !important;
+    font-size: 64px;
+    font-family: 'Lobster', cursive;
+}
+.pic-2-text {
+    color: #fff !important;
+    font-size: 34px;
+    font-family: 'Lobster', cursive;
+    margin-top: 20px;
+}
+
+/* ----------- slide 3 styles ----------- */
+
+.slide-3-text:hover {
+    text-decoration: none;
+}
+.carousel-caption-3 {
+    position: absolute    !important;
+    text-align: left      !important;
+    padding-bottom: 0     !important;
+    bottom: 42%           !important;
+    margin-right: 50%     !important;
+    margin-left: 9%       !important;
+}
+.pic-3-header {
+    color: #494e6b !important;
+    font-size: 68px;
+    font-family: 'Lobster', cursive;
+}
+.pic-3-text {
+    color: #494e6b !important;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    margin-top: 20px;
+}
+
+/* ----------- slide 4 styles ----------- */
+
+.slide-4-text:hover {
+    text-decoration: none;
+}
+.carousel-caption-4 {
+    position: absolute    !important;
+    text-align: left      !important;
+    padding-bottom: 0     !important;
+    bottom: 20%           !important;
+    margin-right: 44%     !important;
+    margin-left: 10%      !important;
+}
+.pic-4-header {
+    color: #fff !important;
+    font-size: 80px;
+    font-family: 'Lobster', cursive;
+}
+.pic-4-text {
+    color: #fff !important;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    margin-top: 20px;
+}
+
+/* ----------- slide 5 styles ----------- */
+
+.slide-5-text:hover {
+    text-decoration: none;
+}
+.carousel-caption-5 {
+    position: absolute    !important;
+    text-align: left      !important;
+    padding-bottom: 0     !important;
+    bottom: 10%           !important;
+    margin-right: 44%     !important;
+    margin-left: 10%      !important;
+}
+.pic-5-header {
+    color: #192231 !important;
+    font-size: 80px;
+    font-family: 'Lobster', cursive;
+}
+.pic-5-text {
+    color: #192231 !important;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    margin-top: 20px;
 }

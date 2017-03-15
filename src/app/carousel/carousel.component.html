@@ -1,30 +1,47 @@
 <ngb-carousel>
   <template class="slide" ngbSlide>
-    <img class="carousel-slide" src="../assets/images/slides/cat-1.png" alt="Sleeping Cat">
-    <div class="carousel-caption">
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </div>
-  </template>
-  <template class="slide" ngbSlide>
-    <img class="carousel-slide" src="../assets/images/slides/dog-1.png" alt="Furry Scurry Dog">
-    <div class="carousel-caption">
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-  </template>
-  <template class="slide" ngbSlide>
-    <img class="carousel-slide" src="../assets/images/slides/cat-2.png" alt="Looking Cat">
-    <div class="carousel-caption">
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <img class="carousel-slide" src="../assets/images/slides/cat-4.png" alt="ADOPT!">
+    <div class="carousel-caption-1">
+      <a [routerLink]="['/about']" class="slide-1-text">
+        <h3 class="pic-1-header">Why should you adopt?</h3>
+        <p class="pic-1-text">Click to find out!</p>
+      </a>
     </div>
   </template>
   <template class="slide" ngbSlide>
     <img class="carousel-slide" src="../assets/images/slides/dog-2.png" alt="Cute Dog">
-    <div class="carousel-caption">
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    <div class="carousel-caption-2">
+      <a [routerLink]="['/adoption/dogs']" class="slide-2-text">
+        <h3 class="pic-2-header">If at the end of the day you smell like a dog, then it was a good day.</h3>
+        <p class="pic-2-text">Click to see adoptable dogs.</p>
+      </a>
+    </div>
+  </template>
+  <template class="slide" ngbSlide>
+      <img class="carousel-slide" src="../assets/images/slides/cat-2.png" alt="Looking Cat">
+      <div class="carousel-caption-3">
+        <a [routerLink]="['/adoption/cats']" class="slide-3-text">
+          <h3 class="pic-3-header">Rescue cats are the best breed.</h3>
+          <p class="pic-3-text">Click to view adoptable cats!</p>
+        </a>
+      </div>
+  </template>
+  <template class="slide-4" ngbSlide>
+    <img class="carousel-slide" src="../assets/images/slides/dog-1.png" alt="Furry Scurry Dog">
+    <div class="carousel-caption-4">
+      <a href="http://ddfl.org/even/furry-scurry/" class="slide-4-text">
+        <h3 class="pic-4-header">Want to help homeless pets?</h3>
+        <p class="pic-4-text">Click to check out the "Furry Scurry" race!</p>
+      </a>
+    </div>
+  </template>
+  <template class="slide" ngbSlide>
+    <img class="carousel-slide" src="../assets/images/slides/cat-3.png" alt="Cats and Basketball">
+    <div class="carousel-caption-5">
+      <a [routerLink]="['/contact']" class="slide-5-text">
+        <h3 class="pic-5-header">Questions? Comments? Concerns?</h3>
+        <p class="pic-5-text">Click to contact us!</p>
+      </a>
     </div>
   </template>
 </ngb-carousel>
