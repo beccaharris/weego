@@ -3,19 +3,18 @@
     margin-left: 450px;
     text-transform: uppercase
 }
-
 p {
     margin-left: 450px;
     margin-right: 450px;
     font-size: 20px;
 }
+
 /* ------------ DOG & CAT ADOPT BUTTONS ------------ */
 .adopt-buttons {
     margin: 0 auto;
     text-align: center;
     padding-top:30px
 }
-
 .adopt-dog,
 .adopt-cat {
     padding: 3px 16px;
@@ -30,13 +29,11 @@ p {
     margin-right: 20px;
     box-shadow: 4px 4px #999   
 }
-
 .adopt-dog:hover,
 .adopt-cat:hover {
     background-color: #30415d;
     color: white;
 }
-
 .adopt-dog:active,
 .adopt-cat:active {
     background-color: #30415d;

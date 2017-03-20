@@ -1,18 +1,16 @@
-.animal {
-  border: 1px solid #999
-}
-
 .row {
-  height: 320px;
-  width: 275px;
   margin-left: 400px;
   margin-right: 450px;
 }
-
+.picture {
+  width: 160px;
+  height: auto;
+}
 .animal { 
+  border: 1px solid #999;
   padding: 5px;
   margin: 50px;
-  width: 150px;
+  width: 175px;
   height: 350px;
   border: 2px solid #999;
   text-align: center;
@@ -28,13 +26,10 @@
   color: #328cc1
 }
 
-.breed,
-.gender,
-.age,
-.color,
-.location {
+.desc {
   font-size: 12px;
   padding:2px;
+  color: black;
 }
 
 .about-button {
@@ -49,4 +44,30 @@
   background-color: #d9b310;
   border-radius: 8px;
   padding: 3px 6px
+}
+
+/*-------modal styling--------*/
+.close {
+  float: right;
+  margin: 0;
+}
+.dark-modal .modal-content {
+  background-color: #292b2c;
+  color: white;
+}
+.dark-modal .close {
+  color: white;   
+}
+.btn-outline-primary {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 6px 6px
+}
+.btn-lg {
+   margin-top: 10px;
+}
+.modal-picture {
+  width: 400px;
+  height: auto;
+  margin-left:30px;
 }
