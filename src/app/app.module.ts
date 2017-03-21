@@ -19,7 +19,6 @@ import { AnimalsComponent }      from './animals/animals.component';
 import { AdoptionComponent }      from './adoption/adoption.component';
 import { DogsComponent }          from './dogs/dogs.component';
 import { CatsComponent }          from './cats/cats.component';
-import { AboutModalComponent }   from './about-modal/about-modal.component';
 import { CarouselComponent } from './carousel/carousel.component';
 
 
@@ -36,7 +35,6 @@ import { CarouselComponent } from './carousel/carousel.component';
     AdoptionComponent,
     CatsComponent,
     DogsComponent,
-    AboutModalComponent,
     CarouselComponent
   ],
   imports: [

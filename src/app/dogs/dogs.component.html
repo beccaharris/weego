@@ -12,23 +12,41 @@
       <button class="btn btn-lg btn-outline-primary" (click)="open(content)">About Me!</button>
 
 <!--Following HTML is for the modal that opens after clicking "About Me"-->
-        <template ngbModalContainer #content let-c="close" let-d="dismiss">
-          <div class="modal-header">
-            <img class="modal-picture" src="{{dog.picture}}">
+      <template ngbModalContainer #content let-c="close" let-d="dismiss">
+        <div class="modal-header">
+          <h1 class="dog-name">{{dog.name}}</h1>
+          <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img class="modal-picture" src="{{dog.picture}}">
+          <p class='basic'>
+            Hi! My name is {{dog.name}}.
+            <br><br>
+            I am a {{dog.breed}}.
+            <br><br>
+            The shelter thinks I am about {{dog.age}} old.
+            <br><br>
+            Come meet me at {{dog.location}} today and see if I'm the one for you!
+          </p>
+<hr>
+          <p class="more-info">
+            {{dog.tagline}}
+            <br>
+            {{dog.favorites}}
+            <br>
+            {{dog.specialFeatures}}
+            <br>
+            {{dog.dreamHome}}
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" (click)="c('Close click')">Close</button>
+        </div>
+       </template>   
   </div>
-  <div class="modal-body">
-    <p>{{dog.blurb}}
-    </p>
-  </div>
-  <div class="modal-footer">
-    <button type="button" class="btn btn-secondary" (click)="c('Close click')">Close</button>
-  </div>
-</template>    
+</div> 
     
-    </div>
-</div>
-
-
-
 <pre>{{dogs|json}}</pre>
 

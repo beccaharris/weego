@@ -1,6 +1,6 @@
 .row {
-  margin-left: 400px;
-  margin-right: 450px;
+  margin-left: 280px;
+  margin-right: 280px;
 }
 .picture {
   width: 160px;
@@ -9,7 +9,7 @@
 .animal { 
   border: 1px solid #999;
   padding: 5px;
-  margin: 50px;
+  margin: 50px 15px 25px 15px;
   width: 175px;
   height: 350px;
   border: 2px solid #999;
@@ -47,16 +47,12 @@
 }
 
 /*-------modal styling--------*/
-.close {
-  float: right;
-  margin: 0;
-}
 .dark-modal .modal-content {
-  background-color: #292b2c;
-  color: white;
+  background-color: white;
+  color: black;
 }
 .dark-modal .close {
-  color: white;   
+  color: black;   
 }
 .btn-outline-primary {
   font-size: 16px;
@@ -69,5 +65,13 @@
 .modal-picture {
   width: 400px;
   height: auto;
-  margin-left:30px;
+  vertical-align: middle;
+}
+.dog-name {
+  text-transform: uppercase;
+  margin-left: 35%;
+}
+.more-info {
+  text-align: left;
+  font-size: 14px;
 }
