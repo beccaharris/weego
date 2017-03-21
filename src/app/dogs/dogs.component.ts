@@ -17,10 +17,10 @@ export class Dog {
 
 const Dogs: Dog [] = [
   { picture:'../assets/images/dogs/ryder.png', name:'Ryder', breed: 'Labrador Retriever', gender: 'Male - 79 pounds', age: '6 Years 00 Months', color: 'Black color', location: 'Denver Dumb Friends League',
-    tagline: '#',
-    favorites: 'Favorite Things: Going on walks with you.',
-    specialFeatures: 'Special Features: A sweet boy with a great personality. Affectionate, easy going and a good cuddler. Likes to be around people. Calm, seeks attention, easy to leash and walk, housebroken. Has arthritis.',
-    dreamHome: '#'
+    tagline: 'HANDSOME FELLOW!',
+    favorites: 'Leash walks, kind humans, treats',
+    specialFeatures: 'New friends here say he walks well on a leash and can be shy; would love to meet the whole family and any household dogs prior to his adoption.',
+    dreamHome: 'Nurturing household with no children under 12.'
   },{ picture:'../assets/images/dogs/jack.png', name: 'Jack', breed: 'Labrador Retriever mix', gender: 'Male - 57 pounds', age: '2 Years 00 Months', color: 'Tricolor color', location: 'Denver Dumb Friends League',
     tagline: '',
     favorites: '',
@@ -28,9 +28,9 @@ const Dogs: Dog [] = [
     dreamHome: ''
   },{ picture:'../assets/images/dogs/sonny.png', name: 'Sonny', breed: 'German Shepherd Dog mix', gender: 'Male - 64 pounds', age: '9 Years 01 Months', color: 'Tricolor color', location: 'Denver Dumb Friends League',
     tagline: 'A REAL COOL GUY!',
-    favorites: 'Favorite Things: Going on walks with you.',
-    specialFeatures: 'Special Features: A sweet boy with a great personality. Affectionate, easy going and a good cuddler. Likes to be around people. Calm, seeks attention, easy to leash and walk, housebroken. Has arthritis.',
-    dreamHome: 'Dream Home: He is looking for a loving, forever family eager to welcome him!'
+    favorites: 'Going on walks with you.',
+    specialFeatures: 'A sweet boy with a great personality. Affectionate, easy going and a good cuddler. Likes to be around people. Calm, seeks attention, easy to leash and walk, housebroken. Has arthritis.',
+    dreamHome: 'He is looking for a loving, forever family eager to welcome him!'
   },
 ]
 

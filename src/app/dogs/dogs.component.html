@@ -11,7 +11,8 @@
       <div><span class="desc">{{dog.location}}</span></div>
       <button class="btn btn-lg btn-outline-primary" (click)="open(content)">About Me!</button>
 
-<!--Following HTML is for the modal that opens after clicking "About Me"-->
+<!--Following HTML is for the modal that opens after clicking About Me button-->
+    <!--modal HTML has to stay inside ngFor loop div and row div so that the interpolation works correctly-->
       <template ngbModalContainer #content let-c="close" let-d="dismiss">
         <div class="modal-header">
           <h1 class="dog-name">{{dog.name}}</h1>
@@ -30,16 +31,19 @@
             <br><br>
             Come meet me at {{dog.location}} today and see if I'm the one for you!
           </p>
-<hr>
-          <p class="more-info">
-            {{dog.tagline}}
-            <br>
-            {{dog.favorites}}
-            <br>
-            {{dog.specialFeatures}}
-            <br>
-            {{dog.dreamHome}}
-          </p>
+        <hr>
+          <div class="more-info">
+            <strong>{{dog.tagline}}</strong>
+          </div>
+          <div class="more-info">
+            <strong>Favorite Things:</strong> {{dog.favorites}}
+          </div>
+          <div class="more-info">
+            <strong>Special Features:</strong> {{dog.specialFeatures}}
+          </div>
+          <div class="more-info">
+            <strong>Dream Home:</strong> {{dog.dreamHome}}
+          </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" (click)="c('Close click')">Close</button>

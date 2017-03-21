@@ -17,7 +17,6 @@
   border-radius: 8px;
   box-shadow: 4px 4px #ccc
 }
-
 .name {
   padding-top: 4px;
   text-transform: uppercase;
@@ -25,19 +24,16 @@
   font-weight: bold;
   color: #328cc1
 }
-
 .desc {
   font-size: 12px;
   padding:2px;
   color: black;
 }
-
 .about-button {
   padding: 10px;
   text-transform: uppercase;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-
 .about-me {
   text-transform: uppercase;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -46,7 +42,7 @@
   padding: 3px 6px
 }
 
-/*-------modal styling--------*/
+/*---------------modal and about me button styling---------------*/
 .dark-modal .modal-content {
   background-color: white;
   color: black;
@@ -54,10 +50,25 @@
 .dark-modal .close {
   color: black;   
 }
+.btn {
+  background-color: #8eaebd;
+  color: black;
+  border: none;
+}
+.btn:hover {
+  background-color: #30415d;
+  color: white;
+}
+.btn:active {
+  background-color: #30415d;
+  color: white;
+  box-shadow: 2px 2px #666;
+  transform: translateY(4px)
+}
 .btn-outline-primary {
   font-size: 16px;
   text-transform: uppercase;
-  padding: 6px 6px
+  padding: 6px 6px;
 }
 .btn-lg {
    margin-top: 10px;
