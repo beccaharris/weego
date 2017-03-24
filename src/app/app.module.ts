@@ -13,7 +13,6 @@ import { HeaderComponent }       from './header/header.component';
 import { AboutComponent }        from './about/about.component';
 import { HomeComponent }         from './home/home.component';
 import { PetFinderComponent }    from './pet-finder/pet-finder.component';
-import { GalleryComponent }      from './gallery/gallery.component';
 import { ContactComponent }      from './contact/contact.component';
 import { AnimalsComponent }      from './animals/animals.component';
 import { AdoptionComponent }      from './adoption/adoption.component';
@@ -30,7 +29,6 @@ import { CarouselComponent } from './carousel/carousel.component';
     HomeComponent,
     AboutComponent,
     PetFinderComponent,
-    GalleryComponent,
     AnimalsComponent,
     AdoptionComponent,
     CatsComponent,

@@ -10,7 +10,6 @@ import { PetFinderComponent }   from './pet-finder/pet-finder.component';
 import { ContactComponent }     from './contact/contact.component';
 import { DogsComponent }        from './dogs/dogs.component';
 import { CatsComponent }        from './cats/cats.component';
-import { GalleryComponent }     from './gallery/gallery.component';
 import { AnimalsComponent }     from './animals/animals.component';
 
  
@@ -43,9 +42,6 @@ const appRoutes: Routes = [
   },{
     path: 'pet-finder',
     component: PetFinderComponent
-  },{
-    path: 'gallery',
-    component: GalleryComponent
   },{
     path: 'contact',
     component: ContactComponent

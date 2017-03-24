@@ -1,17 +1,17 @@
 .row {
-  margin-left: 280px;
-  margin-right: 280px;
+  margin-left: 260px;
+  margin-right: 250px;
 }
 .picture {
   width: 160px;
   height: auto;
 }
 .animal { 
-  border: 1px solid #999;
+  position: relative;
   padding: 5px;
   margin: 50px 15px 25px 15px;
-  width: 175px;
-  height: 350px;
+  width: 185px;
+  height: 385px;
   border: 2px solid #999;
   text-align: center;
   border-radius: 8px;
@@ -29,18 +29,6 @@
   padding:2px;
   color: black;
 }
-.about-button {
-  padding: 10px;
-  text-transform: uppercase;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-.about-me {
-  text-transform: uppercase;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color: #d9b310;
-  border-radius: 8px;
-  padding: 3px 6px
-}
 
 /*---------------modal and about me button styling---------------*/
 .dark-modal .modal-content {
@@ -50,7 +38,15 @@
 .dark-modal .close {
   color: black;   
 }
+.butts {
+  position: absolute;
+  left: 40px;
+  bottom: 20px;
+  text-transform: uppercase;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
 .btn {
+  float: bottom;
   background-color: #8eaebd;
   color: black;
   border: none;
@@ -69,9 +65,6 @@
   font-size: 16px;
   text-transform: uppercase;
   padding: 6px 6px;
-}
-.btn-lg {
-   margin-top: 10px;
 }
 .modal-picture {
   width: 400px;
