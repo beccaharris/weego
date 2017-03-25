@@ -1,0 +1,81 @@
+.row {
+  margin-left: 160px;
+  margin-right: 150px;
+}
+.picture {
+  width: 160px;
+  height: auto;
+}
+.animal { 
+  position: relative;
+  padding: 5px;
+  margin: 50px 15px 25px 15px;
+  width: 185px;
+  height: 385px;
+  border: 2px solid #999;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 4px 4px #ccc
+}
+.name {
+  padding-top: 4px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: #328cc1
+}
+.desc {
+  font-size: 12px;
+  padding:2px;
+  color: black;
+}
+
+/*---------------modal and about me button styling---------------*/
+.dark-modal .modal-content {
+  background-color: white;
+  color: black;
+}
+.dark-modal .close {
+  color: black;   
+}
+.butts {
+  position: absolute;
+  left: 40px;
+  bottom: 20px;
+  text-transform: uppercase;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.btn {
+  float: bottom;
+  background-color: #8eaebd;
+  color: black;
+  border: none;
+}
+.btn:hover {
+  background-color: #30415d;
+  color: white;
+}
+.btn:active {
+  background-color: #30415d;
+  color: white;
+  box-shadow: 2px 2px #666;
+  transform: translateY(4px)
+}
+.btn-outline-primary {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 6px 6px;
+}
+.modal-picture {
+  width: 400px;
+  height: auto;
+  vertical-align: middle;
+}
+.dog-name {
+  text-transform: uppercase;
+  margin-left: 35%;
+}
+.more-info {
+  text-align: left;
+  font-size: 14px;
+}

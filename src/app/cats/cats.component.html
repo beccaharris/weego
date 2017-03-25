@@ -1,3 +1,56 @@
-<p>
-  cats works!
-</p>
+<div class="row">
+
+  <div *ngFor="let cat of cats">
+    <div class="animal">
+      <div><img class="picture" src="{{cat.picture}}"></div>
+      <div><span class="name">{{cat.name}}</span></div>
+      <div><span class="desc">{{cat.breed}}</span></div>
+      <div><span class="desc">{{cat.gender}}</span></div>
+      <div><span class="desc">{{cat.age}}</span></div>
+      <div><span class="desc">{{cat.color}}</span></div>
+      <div><span class="desc">{{cat.location}}</span></div>
+      <div class="butts"><button class="btn btn-lg btn-outline-primary" (click)="open(content)">About Me!</button></div>
+
+<!--Following HTML is for the modal that opens after clicking About Me button-->
+    <!--modal HTML has to stay inside ngFor loop div and row div so that the interpolation works correctly-->
+      <template ngbModalContainer #content let-c="close" let-d="dismiss">
+        <div class="modal-header">
+          <h1 class="cat-name">{{cat.name}}</h1>
+          <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img class="modal-picture" src="{{cat.picture}}">
+          <p class='basic'>
+            Hi! My name is {{cat.name}}.
+            <br><br>
+            I am a {{cat.breed}}.
+            <br><br>
+            The shelter thinks I am about {{cat.age}} old.
+            <br><br>
+            Come meet me at {{cat.location}} today and see if I'm the one for you!
+          </p>
+        <hr>
+          <div class="more-info">
+            <strong>{{cat.tagline}}</strong>
+          </div>
+          <div class="more-info">
+            <strong>Favorite Things:</strong> {{cat.favorites}}
+          </div>
+          <div class="more-info">
+            <strong>Special Features:</strong> {{cat.specialFeatures}}
+          </div>
+          <div class="more-info">
+            <strong>Dream Home:</strong> {{cat.dreamHome}}
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" (click)="c('Close click')">Close</button>
+        </div>
+       </template>   
+  </div>
+</div> 
+    
+<pre>{{cats|json}}</pre>
+
