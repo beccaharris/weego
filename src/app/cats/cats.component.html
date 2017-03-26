@@ -9,7 +9,7 @@
       <div><span class="desc">{{cat.age}}</span></div>
       <div><span class="desc">{{cat.color}}</span></div>
       <div><span class="desc">{{cat.location}}</span></div>
-      <div class="butts"><button class="btn btn-lg btn-outline-primary" (click)="open(content)">About Me!</button></div>
+      <div class="butts"><button class="btn btn-lg btn-outline-primary" (click)="open(content)" placement="bottom" ngbTooltip="Click here to learn more about this animal">About Me!</button></div>
 
 <!--Following HTML is for the modal that opens after clicking About Me button-->
     <!--modal HTML has to stay inside ngFor loop div and row div so that the interpolation works correctly-->
