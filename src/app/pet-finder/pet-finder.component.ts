@@ -11,7 +11,7 @@ import { Pet_Finder } from './pet-finder';
 })
 export class PetFinderComponent {
 
-  species = ['Any', 'Dog', 'Cat', 'Small Mammal', 'Horse'];
+  species = ['Any', 'Dog', 'Cat'];
 
   model = new Pet_Finder(18, 'Dr IQ', this.species[0], 'Chuck Overstreet');
 

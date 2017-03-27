@@ -46,7 +46,7 @@ export const Cats: Cat [] = [
     favorites: "Chirping & getting pets. May need some time to warm up to new people, but then he's affectionate & purry.",
     specialFeatures: "A big, talkative kitty with silky fur. Due to a history of bladder stones, he'll benefit from a special diet.",
     dreamHome: ' Quiet & laid-back; a single-cat household with lots of love to help him feel safe'
-  },{ picture:'../assets/images/cats/samson.png', name: 'Bailey', breed: 'German Shepherd and Beagle mix', gender: 'Male - 57 pounds', age: '03 Years 01 Months', color: 'Tricolor color', location: 'MaxFund',
+  },{ picture:'../assets/images/cats/samson.png', name: 'Samson', breed: 'Maine Coon mix', gender: 'Male', age: '06 Years 07 Months', color: 'Brown Tabby color', location: 'Denver Dumb Friends League Quebec Street Shelther',
     tagline: 'A HEART AS BIG AS HIS PAWS!',
     favorites: 'Petting sessions, attention, playing.',
     specialFeatures: 'Great purr. Needs to be close to people. Enjoys being held and petted. Likes to watch birds and squirrels by the window. Crazy about Tempations Treats. Tolerated small dog and children. Has some health issues. Fantastic cat!',
@@ -80,6 +80,31 @@ export const Cats: Cat [] = [
     tagline: 'BEAUTIFUL WONDERFUL GIRL',
     favorites: 'Petting, affection, neck & chin scratches',
     specialFeatures: 'Might prefer slow intro to new home, using her litterbox in shelter, tolerates other cats, lovely blue eyes, sweet catsonality w/shelter staff',
-    dreamHome: 'alm & loving, lots of petting & attention from family, time to adjust please'
+    dreamHome: 'Calm & loving, lots of petting & attention from family, time to adjust please'
+  },{ picture:'../assets/images/cats/ursa.png', name: 'Ursa', breed: 'Domestic Shorthair mix', gender: 'Male', age: '05 Years 00 Months', color: 'Brown color', location: 'MaxFund',
+    tagline: 'A BIG TEDDY BEAR',
+    favorites: 'He loves people, but can be a little slow to warm up. He enjoys sitting on laps but also loves to play!',
+    specialFeatures: 'He seems to get along with other calm, non-domineering cats. He loves people once he has warmed up to them.',
+    dreamHome: 'He would do best in a home that is willing to go slowly with him and let him settle in at his pace. He would do best in a home without dogs.'
+  },{ picture:'../assets/images/cats/crowe.png', name: 'Crowe', breed: 'Domestic Mediumhair mix', gender: 'Male', age: '09 Years 02 Months', color: 'Black and White color', location: 'MaxFund',
+    tagline: 'BIG, HANDSOME BOY!',
+    favorites: 'He loves to get his ears and chin scratched. He is a big love bug that just wants to cuddle.',
+    specialFeatures: 'He is a calm boy that loves people.',
+    dreamHome: 'He just wants a home that will give him lots of love!'
+  },{ picture:'../assets/images/cats/ginger2.png', name: 'Ginger', breed: 'Siamese mix', gender: 'Female', age: '04 Years 03 Months', color: 'White and Orange color', location: 'MaxFund',
+    tagline: 'LOVING GIRL',
+    favorites: 'Loves to lay in your lap. She also loves to play and gets along with other cats!',
+    specialFeatures: 'Beautiful long-haired Siamese mix with stunning blue eyes. She is very playful but also loves a lap to lay in.',
+    dreamHome: 'She would love a home with another cat. In the past, she has been partial to men, but she does like women as well!'
+  },{ picture:'../assets/images/cats/randall.png', name: 'Randall', breed: 'Domestic Mediumhair mix', gender: 'Male', age: '03 Months', color: 'White color', location: 'RUFF Rescue',
+    tagline: 'FRIENDLY AND SILLY BOY',
+    favorites: 'Just being a kitten!',
+    specialFeatures: 'He is an adorable white-colored boy with orange accents on his ears. He is very playful and knows how to give kisses on command!',
+    dreamHome: 'Any home that loves kittens and will play with him! He gets along well with other cats and all people.'
+  },{ picture:'../assets/images/cats/lowell.png', name: 'Lowell', breed: 'Norwegian Forest cat mix', gender: 'Male', age: '03 Years 03 Months', color: 'Gray and White color', location: 'RUFF Rescue',
+    tagline: 'BIG AND HANDSOME',
+    favorites: 'He loves to lay on laps and play with toys.',
+    specialFeatures: 'He is a big (12 pounds) laid back guy that gets along well with other cats. He can act like a very dignified guy, but he is really a big sweetheart who just wants a lap and some toys to play with. He settles in very easy.',
+    dreamHome: 'Lowell would love a home with people who are willing to provide him with love and attention.'
   },
 ]

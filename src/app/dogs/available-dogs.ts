@@ -91,11 +91,26 @@ export const Dogs: Dog [] = [
     favorites: 'Being active and going on adventures with her humans!',
     specialFeatures: 'Ana is active, attentive, and affectionate. She is a little shy but warms up quickly!',
     dreamHome: 'She would love a home that can encourage her and give her lots of love, as she came from a neglectful situation. She needs a family that is willing to work on her socialization with other pups to help her become less awkward.'
+  },{ picture:'../assets/images/dogs/aline.png', name: 'Aline', breed: 'German Shepherd dog', gender: 'Female - 55 pounds', age: '10 Months', color: 'Black and Tan color', location: 'Show Capped Shepherd Rescue',
+    tagline: 'PERFECT GIRL!',
+    favorites: 'She loves to play with her humans and dog friends all of the time.',
+    specialFeatures: 'She is a very happy, playful, and silly girl. She gets along great with other dogs and all people.',
+    dreamHome: 'She needs a home that is willing the be patient with her through her puppyhood and is willing to possibly enroll her in basic etiquette lessons or puppy kindergarten.'
   },{ picture:'../assets/images/dogs/evie.png', name: 'Evie', breed: 'Pug and Beagle mix', gender: 'Female - 30 pounds', age: '12 Years 01 Months', color: 'Tan color', location: 'Show Capped Shepherd Rescue',
     tagline: 'A REAL SWEET GIRL',
     favorites: 'Relaxing with her humans and going on leisurely walks.',
     specialFeatures: 'A sweet girl that is friendly to everyone and everything.',
     dreamHome: 'Needs a home to stay with her during her golden years. She would love a home that can provide physical activity to help keep her young!'
+  },{ picture:'../assets/images/dogs/luther.png', name: 'Luther', breed: 'White German Shepherd', gender: 'Male - 75 pounds', age: '07 Years 03 Months', color: 'White color', location: 'Show Capped Shepherd Rescue',
+    tagline: 'HANDSOME GENTLEMAN',
+    favorites: 'He loves to romp and play with his dog friends.',
+    specialFeatures: 'He gets along with other dogs and is incredibly affectionate and loving to his humans',
+    dreamHome: 'Would love a home that gives him tons of attention. He has been diagnosed with early stage kidney disease, so he would benefit from a special diet to help him stay healthy!'
+  },{ picture:'../assets/images/dogs/myrtle.png', name: 'Myrtle', breed: 'White German Shepherd', gender: 'Female - 65 pounds', age: '04 Years 04 Months', color: 'White color', location: 'Show Capped Shepherd Rescue',
+    tagline: 'CLASSY LADY!',
+    favorites: 'She loves to hang out with her humans and play with her dog friends!',
+    specialFeatures: 'She is very social and playful with other dogs. Very affectionate with people.',
+    dreamHome: 'She would love a home with another (or multiple) dog friends to play with! She was found with a severly broken leg, so she needs a home that will help her build back strength so she can play, play, play!'
   },{ picture:'../assets/images/dogs/cecil.png', name: 'Cecil', breed: 'Doberman Pinscher (purebred)', gender: 'Male - 60 pounds', age: '08 Years 01 Months', color: 'Black and Tan color', location: 'Doberman Rescue of Colorado',
     tagline: 'DOBERGENT',
     favorites: 'Hanging out with his favorite humans and taking it easy.',
